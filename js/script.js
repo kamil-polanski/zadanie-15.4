@@ -9,8 +9,8 @@ Phone.prototype.printInfo = function() {
 
 
 const iPhone6S = new Phone(`Apple`, 2250, `silver`);
-const SamsungGalaxyS6 = new Phone(`Samsung`, 2250, `black`);
-const OnePlusOne = new Phone(`One Plus`, 2250, `white`);
+const SamsungGalaxyS6 = new Phone(`Samsung`, 1250, `black`);
+const OnePlusOne = new Phone(`One Plus`, 14711, `white`);
 const phones = [iPhone6S, SamsungGalaxyS6, OnePlusOne];
 for (ele of phones) {
     ele.printInfo();
